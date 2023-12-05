@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231205 22:36:10.831" rpa="false" schemaversion="4">
+<suite id="s1" name="HomeWork Protei 4" source="C:\Users\kator\PycharmProjects\HomeWork_Protei_4">
+<suite id="s1-s1" name="Hello" source="C:\Users\kator\PycharmProjects\HomeWork_Protei_4\hello.robot">
+<test id="s1-s1-t1" name="Reverse geocoding" line="21">
+<kw name="Geocode Rev" library="tests">
+<var>${addr_city}</var>
+<msg timestamp="20231205 22:36:13.679" level="INFO">Mudemba</msg>
+<msg timestamp="20231205 22:36:13.679" level="INFO">${addr_city} = Mudemba</msg>
+<status status="PASS" starttime="20231205 22:36:13.171" endtime="20231205 22:36:13.679"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${addr_city}</arg>
+<arg>Mudemba</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" starttime="20231205 22:36:13.680" endtime="20231205 22:36:13.681"/>
+</kw>
+<doc>Обратное геокодирование
+Ожидается, что функция вернет значение</doc>
+<status status="PASS" starttime="20231205 22:36:13.171" endtime="20231205 22:36:13.683"/>
+</test>
+<status status="PASS" starttime="20231205 22:36:10.851" endtime="20231205 22:36:13.685"/>
+</suite>
+<status status="PASS" starttime="20231205 22:36:10.832" endtime="20231205 22:36:13.688"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="HomeWork Protei 4">HomeWork Protei 4</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Hello">HomeWork Protei 4.Hello</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
